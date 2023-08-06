@@ -67,15 +67,6 @@ case 'e':
     scanf(" %c", &answer);
     while (answer == 'Y'){
         printf("Now editing.\n");
-/*        
-        printf("\nWhich array data point do you want to edit? (a-p): \n");
-        scanf(" %c", *data);
-        printf("\nWhat do you want to change it to? (currently %d)\n", *data);
-        scanf(" %d", *data);
-        printf("\nData point in array is now %d.)\n", *data);
-        answer = n;
-        printf("\nTerminating!");
-*/
 
         printf("\nWhich array data point do you want to edit? (a-p): \n");
         scanf(" %c", &answer);
